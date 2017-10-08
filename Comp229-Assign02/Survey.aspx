@@ -124,5 +124,4 @@
         Type="Date" ControlToValidate="BirthdayTextBox"
         ErrorMessage="You must be over 19 to use this website." />--%>
     <br />
-    <script src="Content/JavaScript.js"></script>
 </asp:Content>
