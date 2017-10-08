@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
+    <h3>Survey page.</h3>
 
         <table class="nav-justified">
             <tr>
@@ -10,7 +10,7 @@
 
         <asp:Label runat="server" Text="Username:" />
                 </td>
-                <td>
+                <td style="text-align: justify">
     <asp:TextBox ID="UsernameTextBox" runat="server" TextMode="SingleLine" />
                 </td>
                 <td>
@@ -25,7 +25,7 @@
 
     <asp:Label runat="server" Text="Password:" />
                 </td>
-                <td>
+                <td style="text-align: justify">
     <asp:TextBox ID="PasswordTextBox" runat="server" TextMode="Password" />
                 </td>
                 <td>
@@ -47,7 +47,7 @@
 
     <asp:Label runat="server" Text="Confirm Password:" />
                 </td>
-                <td>
+                <td style="text-align: justify">
     <asp:TextBox ID="ConfirmPasswordTextBox" runat="server" TextMode="Password" />
                 </td>
                 <td>
@@ -62,7 +62,7 @@
 
     <asp:Label runat="server" Text="Email:" />
                 </td>
-                <td>
+                <td style="text-align: justify">
     <asp:TextBox ID="EmailTextBox" runat="server" TextMode="SingleLine" />
                 </td>
                 <td>
@@ -82,7 +82,7 @@
     
     <asp:Label runat="server" Text="Birthday:" />
                 </td>
-                <td>
+                <td style="text-align: justify">
     <asp:TextBox ID="BirthdayTextBox" runat="server" TextMode="Date" Placeholder="Year/Month (as numbers)/Day" />
                 </td>
                 <td>
@@ -95,8 +95,13 @@
         MinimumValue="1998/10/03" MaximumValue="2017/04/03"
         ErrorMessage="You must be over 19 to use this website." />
                 </td>
-            </tr>
             <tr>
+				<td>&nbsp;Describe your journey::
+				</td>
+				<td>
+					<textarea cols="50" name="txtSpecialReq" rows="7" tabindex="37" placeholder="Please leave your details of your experience in our website..."></textarea>
+				</td>
+			</tr>
                 <td>
     <asp:ValidationSummary ID="vSummary" runat="server" />
 
@@ -106,7 +111,7 @@
             </tr>
             <tr>
                 <td>
-    <asp:Button runat="server" Text="Submit" />
+    <asp:Button runat="server" Text="Submit" onclientclick='redirect()' Width="198px" />
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -119,5 +124,5 @@
         Type="Date" ControlToValidate="BirthdayTextBox"
         ErrorMessage="You must be over 19 to use this website." />--%>
     <br />
-    
+    <script src="Content/JavaScript.js"></script>
 </asp:Content>
