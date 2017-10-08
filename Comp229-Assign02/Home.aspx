@@ -23,10 +23,10 @@
         <div class="col-md-6">
             <h2>Disclaimers and privacy statement</h2>
             <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
+                A disclaimer is generally any statement intended to specify or delimit the scope of rights and obligations that may be exercised and enforced by parties in a legally recognized relationship. In contrast to other terms for legally operative language, the term disclaimer usually implies situations that involve some level of uncertainty, waiver, or risk.
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btn btn-default" href="https://www.microsoft.com/en-us/legal/intellectualproperty/onlinedisclaimer.aspx">Learn more &raquo;</a>
             </p>
         </div>
     </div>
