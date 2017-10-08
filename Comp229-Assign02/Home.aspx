@@ -17,7 +17,7 @@
                 Survey Page gives opportunity to write your experience with our website for us to fix them and make your journey more reliable.
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Take a survey &raquo;</a>
+                <a class="btn btn-default" href="Survey.aspx">Take a survey &raquo;</a>
             </p>
         </div>
         <div class="col-md-6">
