@@ -1,0 +1,239 @@
+﻿#allPage {
+    width: 975px;
+    padding: 0px;
+    table-layout: auto;
+}
+
+body {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #696969;
+    background-image: radial-gradient(#ffffff,#696969);
+    background-repeat: no-repeat;
+}
+
+.car {
+    width: 480px;
+    height: 300px;
+}
+
+.header {
+    position: relative;
+    top: -8px;
+    z-index: -1;
+    width: 975px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.header1 {
+    position: absolute;
+    top: 50px;
+    z-index: 0;
+    width: 250px;
+    height: 90px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+.carMain {
+    font-size: 20px;
+}
+
+.nameOfTheCar {
+    color: #ff0000;
+}
+
+.cost {
+    color: #0000ff;
+}
+
+.text {
+    background-image: linear-gradient(to top,#ffffff,#808080);
+    background-repeat: no-repeat;
+}
+
+li {
+    display: inline;
+    margin: 19px;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+    a:visited {
+        color: #ffffff;
+    }
+
+    a:hover {
+        color: #ffa500;
+    }
+
+.navigater {
+    background: rgba(35, 31,32, .8);
+    position: absolute;
+    top: -5px;
+    height: 35px;
+    width: 935px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navigaterSMC {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.liSMC {
+    display: inline;
+    margin: 19px;
+    border-width: 10px;
+    border-style: ridge;
+    border-color: #000000;
+    border-radius: 5px;
+}
+
+table {
+    background-color: #ffffff;
+    margin-top: -5px;
+    width: 975px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(to bottom,#ffffff,#808080);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.founder {
+    height: 380px;
+    width: 350px;
+}
+
+.founderAbout {
+    height: 300px;
+    width: 500px;
+}
+
+footer {
+    background-color: #808080;
+    background-image: linear-gradient(to top,#ffffff,#808080);
+    background-repeat: no-repeat;
+    border: 1px;
+    border-radius: 5px;
+    margin: 5px;
+    margin: 5px;
+    width: 975px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.detailth {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.detailtr {
+    background-color: #d3d3d3;
+}
+
+.detailtr1 {
+    background-color: #ffffff;
+}
+
+.tableThVL {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.tableTd1VL {
+    background-color: #d3d3d3;
+    font-size: 25px;
+}
+
+.tableTdVL {
+    background-color: #ffffff;
+    font-size: 25px;
+}
+
+.VLcolor {
+    color: #ffa500;
+}
+
+.VLcolor1 {
+    color: #000000;
+}
+
+.tableVL {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.SMCa {
+    color: #000000;
+    font-size: 25px;
+}
+
+.map {
+    height: 500px;
+    weight: 800px;
+    border-radius: 10px;
+}
+
+#gallery {
+    position: relative;
+}
+
+    #gallery ul {
+        list-style-type: none;
+        width: 500px;
+    }
+
+    #gallery li {
+        display: inline;
+        float: left;
+        padding: 5px;
+    }
+
+    #gallery img {
+        border-style: none;
+    }
+
+    #gallery a {
+        text-decoration: none;
+        font-style: italic;
+        color: #333;
+    }
+
+    #gallery span {
+        display: none;
+    }
+
+    #gallery a:hover span {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 543px;
+        text-align: center;
+    }
+
+.top {
+    left: -50px;
+    top: 0px;
+}
+
+.sizeinfo {
+    font-size: 22px;
+}
